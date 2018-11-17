@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Clicker</title>
+    <!-- Links to Resets, Bootstraps and Style -->
+    <link rel="stylesheet" href="Assets/Style/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/Style/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron" id="titleBox"> 
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="row">
+        <div class="col" id="gameRules">
+            <h4>Help the Black Mage charge his spell!</h4>
+
+            <br>
+
+            <p>Each of the four Cystals below will grant 'MP', which is needed to cast the spell!</p>
+            
+            <p>But no one knows how much MP each Crystal will grant!</p>
+          
+            <p>Click each Crystal and see how much MP it gives; then, click the Crystals in the correct order to reach the right amount of MP!</p>
+            
+            <br>
+
+            <h4>MP Needed: <span id="numberToGuess"></span> ------ MP Gathered: <span id="totalScore"></span></h4>
+
+            <h4>Wins: <span id="totalWins"></span> ------ Losses: <span id="totalLosses"></span></h4>
+
+
+        </div>
+        <div class="col" id="blackMage">
+            <img src="Assets/Style/Images/CharacterWinner.gif">
+        </div>
+    </div>
+
+    <div class="row"></div>
+        <div class="col" id="crystals">  
+    </div> 
+    
+</div>  
+
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="Assets/Javascript/crystal.js"></script>
+</html>

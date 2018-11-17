@@ -1,0 +1,58 @@
+body  {
+    background-image: url("Images/Grassland.png");
+    background-size: cover;
+}
+
+.crystalImage {
+    height: 200px;
+    width: 200px;
+}
+
+#titleBox {
+    margin: 5%;
+    margin-top: 2%;
+    background: #0205cc;
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#crystals {
+    margin:auto;
+    background: #0205cc;
+    color: white;
+    border: 5px solid white;
+    
+    
+}
+
+.crystalImage {
+    margin-left:5%;
+    margin: 2%;
+    align-content: center;
+}
+
+#gameRules {
+    background: #0205cc;
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+#blackMage {
+    margin-left: 10%;
+}
+
+#playAgain {
+    margin:auto;
+    /* visibility: hidden; */
+    background: #0205cc;
+    color: white;
+    border: 5px solid white;
+    height: 50px;
+    width:200px;
+    
+}
